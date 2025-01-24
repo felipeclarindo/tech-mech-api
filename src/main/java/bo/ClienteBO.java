@@ -1,8 +1,9 @@
 package bo;
 
+import java.util.ArrayList;
+
 import dao.ClienteDAO;
 import to.ClienteTO;
-import java.util.ArrayList;
 
 public class ClienteBO {
     private ClienteDAO clienteDAO;
