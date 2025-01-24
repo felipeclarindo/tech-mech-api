@@ -1,69 +1,79 @@
+🌍 [Leia em Português](README.pt-BR.md)
+
 # Tech Mech Api
 
-Esta é uma API desenvolvida em java para o projeto TechMec.
+This is an API developed in java in order to perform manipulations in the database for the Tech Mech project.
 
-## Funcionalidade
+## Technologies used
 
-- Autenticar o usuário
+- `Git` - Version control.
+- `Java`- Development of api.
+- `Maven` - Build automation and dependency management tool for the api.
 
-## Requisitos
+## Requirements for installation
 
-Certifique-se de ter o **Java** instalado em sua máquina e o **Compilador Java**
+Make sure you have the `node`, `npm` and `Java Development Kit` installed in your machine for run the project.
 
-## Passos para Instalação e Inicialização do projeto:
+## Steps for installation and run the API
 
-1. Clone o repositório:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/felipeclarindo/tech-mech-api.git
 ```
 
-2. Entre no diretorio da api:
+2. Enter the directory of api:
 
-```cd
+```bash
 tech-mech-api
 ```
 
-3. Inicie o arquivo `Main.java`.
+3. Configure your oracle database credentials in `src/main/java/resources/application.properties`.
 
-4. Pronto a API está no ar, agora clone o repositório de Front:
+4. Execute sql locate at `sql/table/clients.sql` in the database.
+
+5. Run the file `Main.java`.
+
+## Steps for installation and run the Front-end
+
+1. Clone the front end repository:
 
 ```bash
-git clone https://github.com/felipeclarindo/tech-mech
+git clone https://github.com/felipeclarindo/tech-mech.git
 ```
 
-5. Entre no diretorio:
+2. Enter the directory:
 
 ```bash
 cd tech-mech
 ```
 
-6. instale as dependencias:
+3. Now let's run the front-end (Make sure the api is running)
 
 ```bash
 npm install
 ```
 
-7. Rode o projeto localmente (certifique-se de que a API de java também esteja rodando):
+4. Run the project locally (make sure the java API is running as well):
 
 ```bash
 npm run dev
 ```
 
-8. Clique no link disponibilizado no terminal, normalmente:
+5. Click on the link provided in the terminal, usually:
 
-- http://localhost:3000
+- `http://localhost:3000`
 
-## Contribuição
+## Contribution
 
-Contribuições são bem-vindas! Se você tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Contributions are welcome! If you have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-## Autores
+## Authors
 
 - [Felipe Clarindo](https://github.com/felipeclarindo)
 - [Victor Augusto](https://github.com/victoraugustogfavaro)
 - [Jennie Suzuki](https://github.com/jenniesuzuki)
 
-## Licença
+## License
 
-Este projeto está licenciado sob a [GNU Affero License](https://www.gnu.org/licenses/agpl-3.0.html).
+This project is licensed under the [GNU Affero License](https://www.gnu.org/licenses/agpl-3.0.html).

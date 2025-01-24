@@ -1,14 +1,22 @@
 package resource;
 
-import bo.ClienteBO;
-import to.ClienteTO;
-import jakarta.validation.Valid;
-import jakarta.ws.rs.*;
-import jakarta.ws.rs.core.MediaType;
-import jakarta.ws.rs.core.Response;
 import java.util.ArrayList;
 
-@Path("/techmec/clientes")
+import bo.ClienteBO;
+import jakarta.validation.Valid;
+import jakarta.ws.rs.Consumes;
+import jakarta.ws.rs.DELETE;
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.POST;
+import jakarta.ws.rs.PUT;
+import jakarta.ws.rs.Path;
+import jakarta.ws.rs.PathParam;
+import jakarta.ws.rs.Produces;
+import jakarta.ws.rs.core.MediaType;
+import jakarta.ws.rs.core.Response;
+import to.ClienteTO;
+
+@Path("/api/clients")
 public class ClienteResource {
     private ClienteBO clienteBO = new ClienteBO();
 
