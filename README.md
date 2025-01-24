@@ -6,13 +6,9 @@ This is an API developed in java in order to perform manipulations in the databa
 
 ## Technologies used
 
-- `Next.js` - React Framework.
-- `TypeScript` - JS Superset.
-- `IBM Watson Assistant` - Virtual Assistant Integration.
-- `Tailwind` - Styling.
-- `FontAwesome` - Icons.
 - `Git` - Version control.
 - `Java`- Development of api.
+- `Maven` - Build automation and dependency management tool for the api.
 
 ## Requirements for installation
 

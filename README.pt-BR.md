@@ -6,13 +6,9 @@ Esta é uma API desenvolvida em java com o intuito de realizar manipulações no
 
 ## Tecnologias utilizadas
 
-- `Next.js` - Framework de React.
-- `TypeScript` - Superset de JavaSCript.
-- `IBM Watson Assistant` - Integração do Assistente Virtual.
-- `Tailwind` - Estilização.
-- `FontAwesome` - Ícones.
 - `Git` - Controle de Versão.
 - `Java`- Desenvolvimento da API.
+- `Maven` - Ferramenta de automação de build e gerenciamento de dependências para a api.
 
 ## Requisitos para instalação
 
@@ -64,7 +60,7 @@ npm install
 npm run dev
 ```
 
-5. Clique no link disponibilizado no terminal:
+5. Clique no link disponibilizado no terminal, normalmente:
 
 - `http://localhost:3000`
 
