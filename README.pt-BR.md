@@ -4,29 +4,39 @@
 
 Esta é uma API desenvolvida em java com o intuito de realizar manipulações no banco de dados para o projeto Tech Mech.
 
-## Requisitos
+## Tecnologias utilizadas
 
-Certifique-se de ter o `Java Development Kit`, `node`, `npm` instalado em sua máquina.
+- `Next.js` - Framework de React.
+- `TypeScript` - Superset de JavaSCript.
+- `IBM Watson Assistant` - Integração do Assistente Virtual.
+- `Tailwind` - Estilização.
+- `FontAwesome` - Ícones.
+- `Git` - Controle de Versão.
+- `Java`- Desenvolvimento da API.
 
-## Passos para instalação e execução da API:
+## Requisitos para instalação
 
-1. Clone o repositório:
+Certifique-se de ter o `Java Development Kit`, `node`, `npm` instalado em sua máquina para executar o projeto.
+
+## Passos para instalação e para execução da API
+
+1. Clone o repositório da api:
 
 ```bash
 git clone https://github.com/felipeclarindo/tech-mech-api.git
 ```
 
-2. Crie o arquivo `.env` baseado no arquivo (env example)[.env.example]
-
-3. Entre no diretorio da api:
+2. Entre no diretório:
 
 ```bash
-tech-mech-api
+cd tech-mech-api
 ```
 
-3. Crie o arquivo `.env` baseado no arquivo [env example](.env.example)
+3. Configure suas credenciais do banco de dados oracle em `src/main/java/resources/application.properties`.
 
-4. Execute o arquivo `Main.java`.
+4. Execute no seu banco de dados oracle o sql localizado em `sql/table/clients.sql`.
+
+5. Execute o arquivo `Main.java`.
 
 ## Passos para a instalação e executação do Front-end.
 
